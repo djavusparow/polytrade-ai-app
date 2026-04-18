@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { Search, RefreshCw, Filter, TrendingUp } from 'lucide-react'
+import { Search, Filter, TrendingUp } from 'lucide-react'
 import { AppSidebar } from '@/components/app-sidebar'
 import { AppHeader } from '@/components/app-header'
 import { MarketCard } from '@/components/market-card'

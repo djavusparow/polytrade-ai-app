@@ -15,7 +15,7 @@ export async function fetchActiveMarkets(limit = 50, offset = 0): Promise<Polyma
     })
     const res = await fetch(`${GAMMA_API}/markets?${params}`, {
       next: { revalidate: 30 },
-    })
+    } as RequestInit & { next?: { revalidate?: number } })
     if (!res.ok) throw new Error(`Gamma API error: ${res.status}`)
     const data = await res.json()
     return Array.isArray(data) ? data : []

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Wallet, TrendingUp, TrendingDown, Activity, RefreshCw, AlertTriangle } from 'lucide-react'
+import { Wallet, AlertTriangle } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { AppSidebar } from '@/components/app-sidebar'
 import { AppHeader } from '@/components/app-header'

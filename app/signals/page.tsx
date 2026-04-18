@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { BrainCircuit, Zap, TrendingUp, TrendingDown, RefreshCw, Activity, Filter } from 'lucide-react'
+import { BrainCircuit, TrendingUp, TrendingDown, Activity, Filter } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { AppSidebar } from '@/components/app-sidebar'
 import { AppHeader } from '@/components/app-header'
