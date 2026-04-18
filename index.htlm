@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polytrade ai app</title>
+</head>
+<body>
+  <h1>Polymarket CLOB App</h1>
+  <p>App is running!</p>
+  <script src="app.js"></script>
+</body>
+</html>
